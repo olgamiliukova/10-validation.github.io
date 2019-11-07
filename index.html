@@ -20,7 +20,7 @@
                 <h3>Форма регистрации</h3>
                 <fieldset class="form__fieldset">
                     <div class="form__field">
-                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][А-ЯЁа-яё\-]+$" minlength="2" maxlength="20" placeholder="Имя" required />
+                        <input class="form__input" type="text" name="name" pattern="^[А-ЯЁ][а-яё]+(-[А-ЯЁ][а-яё]+)?$" minlength="2" maxlength="20" placeholder="Имя" required />
                         <span class="form__error">имя должно содержать только кириллицу: Ольга</span>
                     </div>
                     <div class="form__field">
